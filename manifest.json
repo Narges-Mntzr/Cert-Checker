@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Certificate Checker",
+    "version": "1.2",
+    "description": "افزونه‌ای برای بررسی گواهینامه‌های HTTPS",
+    "permissions": [
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "browser_action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": "icons/icon.png"
+    },
+    "icons": {
+        "48": "icons/icon.png"
+    }
+}

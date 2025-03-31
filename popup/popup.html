@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <meta charset="UTF-8">
+        <title>بررسی گواهینامه</title>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <h2>بررسی گواهینامه HTTPS</h2>
+        <input id="websiteInput" type="text" placeholder="آدرس وب‌سایت (https://example.com)">
+        <button id="checkBtn">بررسی</button>
+        <div id="errorMessage"></div>
+        <table id="certDetails">
+            <tr><th>صادر کننده</th><td id="issuerName"></td></tr>
+            <tr><th>موضوع</th><td id="subjectName"></td></tr>
+            <tr><th>تاریخ شروع اعتبار</th><td id="validFrom"></td></tr>
+            <tr><th>تاریخ پایان اعتبار</th><td id="validTo"></td></tr>
+            <tr><th>الگوریتم کلید</th><td id="keyAlgorithm"></td></tr>
+            <tr><th>امضای دیجیتال</th><td id="sigAlgorithm"></td></tr>
+            <tr><th>شماره سریال</th><td id="serialNumber"></td></tr>
+        </table>
+        <script src="popup.js"></script>
+    </body>
+</html>

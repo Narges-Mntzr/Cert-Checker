@@ -1,0 +1,86 @@
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+    padding: 16px;
+    width: 400px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #02243b;
+    margin-bottom: 12px;
+}
+
+input, button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input {
+    border: 1px solid #aaa;
+}
+
+button {
+    background-color: #02243b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold; 
+}
+
+button:hover {
+    background-color: #005f99;
+}
+
+#errorMessage {
+    color: #d8000c;
+    background-color: #ffdddd;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #d8000c;
+    border-radius: 4px;
+    text-align: center;
+    display: none;
+}
+
+#certDetails {
+    display: none;
+    margin-top: 10px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    word-break: break-word;
+}
+
+th {
+    background-color: #f0f0f0;
+    width: 30%;
+    text-align: center;
+}
+
+td {
+    width: 70%;
+    text-align: left;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
