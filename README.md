@@ -11,14 +11,14 @@ This project is a browser extension for extracting and displaying X.509 certific
 ## Project Structure
 ```
 cert-checker/
-├── manifest.json        # Extension configuration
+├── manifest.json       # Extension configuration
 ├── background.js       # Background script for handling certificate extraction
 ├── popup/
 │   ├── popup.html      # HTML file for the extension's popup UI
-│   ├── popup.js          # Script for handling UI interactions
-│   └── popup.css        # Styling for the popup and notifications
+│   ├── popup.js        # Script for handling UI interactions
+│   └── popup.css       # Styling for the popup and notifications
 └── icons/
-    └── icon.png            # Extension icons
+    └── icon.png        # Extension icons
 
 ```
 
